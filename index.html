@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Directory Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Company Directory Portal</h1>
+  </header>
+
+  <!-- Employee Registration Form -->
+  <section id="employee-registration">
+    <h2>Employee Registration Form</h2>
+    <form id="registration-form">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="department">Department:</label>
+      <select id="department" name="department" required>
+        <option value="">Select</option>
+        <option value="HR">HR</option>
+        <option value="IT">IT</option>
+        <option value="Finance">Finance</option>
+      </select>
+
+      <label for="employeeId">Employee ID:</label>
+      <input type="number" id="employeeId" name="employeeId" required>
+
+      <label for="profilePicture">Profile Picture URL:</label>
+      <input type="url" id="profilePicture" name="profilePicture" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Employee List -->
+  <section id="employee-list">
+    <h2>Employee List</h2>
+    <ol>
+      <li><a href="#">John Doe - johndoe@example.com</a></li>
+      <li><a href="#">Jane Smith - janesmith@example.com</a></li>
+    </ol>
+  </section>
+
+  <!-- Employee Details Table -->
+  <section id="employee-details">
+    <h2>Employee Details</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Employee ID</th>
+          <th>Department</th>
+          <th>Profile Picture</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>12345</td>
+          <td>IT</td>
+          <td><img src="profile-pic-url.jpg" alt="John's profile picture"></td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>54321</td>
+          <td>HR</td>
+          <td><img src="profile-pic-url.jpg" alt="Jane's profile picture"></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Embedded Map -->
+  <section id="map">
+    <h2>Our Location</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345099315!2d144.95592831531926!3d-37.81720997975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43cfb2f87f%3A0xa499f35a0778b09d!2sGoogle!5e0!3m2!1sen!2sin!4v1631783228821!5m2!1sen!2sin" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+</body>
+</html>

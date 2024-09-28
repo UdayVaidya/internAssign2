@@ -1,0 +1,108 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  #employee-registration {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input, form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* List Styling */
+  #employee-list ol {
+    list-style-type: decimal;
+    padding: 20px;
+  }
+  
+  #employee-list a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #employee-list a:hover {
+    text-decoration: underline;
+    color: #4CAF50;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Embedded Map Styling */
+  #map {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  iframe {
+    border: 1px solid #ddd;
+  }
+  
